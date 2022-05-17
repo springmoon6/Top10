@@ -13,7 +13,7 @@ Exposure*, which is more of a broad symptom rather than a root cause,
 the focus is on failures related to cryptography (or lack thereof).
 Which often lead to exposure of sensitive data. Notable Common Weakness Enumerations (CWEs) included
 are *CWE-259: Use of Hard-coded Password*, *CWE-327: Broken or Risky
-Crypto Algorithm*, and *CWE-331 Insufficient Entropy* .
+Crypto Algorithm*, and *CWE-331 Insufficient Entropy*.
 
 ## Description 
 
@@ -60,7 +60,7 @@ For all such data:
     non-cryptographic hash functions used when cryptographic hash functions
     are needed?
 
--   Are deprecated cryptographic padding methods such as PCKS number 1 v1.5
+-   Are deprecated cryptographic padding methods such as PKCS number 1 v1.5
     in use?
 
 -   Are cryptographic error messages or side channel information
@@ -167,7 +167,6 @@ salted.
     HSTS](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html)
 
 -   [OWASP Testing Guide: Testing for weak cryptography](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/README)
-
 
 ## List of Mapped CWEs
 
